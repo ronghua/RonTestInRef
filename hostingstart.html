@@ -30,17 +30,19 @@
             <td align="left">
                 <form style="margin: 0;" name="searchForm" action="/search" method="get">
                     <table border="0" cellspacing="0" cellpadding="0">
-                        <tr>
-                            <td>
-                                <input name="q" value="" onkeyup="handleInput(event, this.value)" maxlength="512" size="55" autocomplete="off" />
-                                <select name="type">
-                                    <option value="mitbbsjobhunting">MITBBS jobhunting</option>
-                                    <option value="glassdoor">Glassdoor</option>
-                                </select>
-                                <input type="hidden" name="newSearch" value="y" />
-                                <input type="submit" value="Search" />&nbsp;<a href="/do/ask" class="fnt lnk">Ask A Question</a>
-                            </td>
-                        </tr>
+<script>
+    (function () {
+        var cx = '009525432847924264754:mnhwuifvlqq';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//www.google.com/cse/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+    })();
+</script>
+<gcse:search></gcse:search>
                     </table>
                 </form>
             </td>
@@ -160,21 +162,6 @@
                                         <a href="websites.html"><span style="text-decoration: underline; font-weight: bold">Useful Websites</span></a>&nbsp;&nbsp;
                                     </td>
                                 </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%" class="bdr-t fnt lnk" cellpadding="3" cellspacing="0">
-                    <tr>
-                        <td class="bgfill" colspan="2"><b>Recommended Reading</b></td>
-                    </tr>
-                    <tr>
-                        <td valign="top" width="50%">
-                            <table width="100%" class="fnt lnk" cellpadding="3" cellspacing="0">
-                            </table>
-                        </td>
-                        <td valign="top" width="50%">
-                            <table width="100%" class="fnt lnk" cellpadding="3" cellspacing="0">
                             </table>
                         </td>
                     </tr>
